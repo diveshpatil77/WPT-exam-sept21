@@ -1,0 +1,27 @@
+Roll no. 210940520024
+Name:- 024_Divesh Patil_JH
+-----------------------------------------------
+
+Install boostrap link
+npm install react-bootstrap bootstrap@5.1.3
+import 'bootstrap/dist/css/bootstrap.min.css';
+======================================================
+In backend project:-
+Express code:-
+
+const express = require('express')
+const app = express()
+const port = 3000
+
+app.get('/', (req, res) => {
+  res.send('Hello World!')
+})
+
+app.listen(port, () => {
+  console.log(`Example app listening at http://localhost:${port}`)
+})
+----------------------------------------------------
+
+Bluebird link
+Promise.promisifyAll(require("mysql/lib/Connection").prototype);
+
